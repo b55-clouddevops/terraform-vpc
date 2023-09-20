@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "git::https://github.com/b55-clouddevops/tf-module-vpc.git?ref=main"
+  source = "./vendor/modules/vpc"
 }
 
 # We cannot parametrize anything that's added n the source
