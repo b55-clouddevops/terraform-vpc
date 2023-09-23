@@ -6,6 +6,7 @@ module "vpc" {
   PUBLIC_SUBNET_CIDR  = var.PUBLIC_SUBNET_CIDR
   PRIVATE_SUBNET_CIDR = var.PRIVATE_SUBNET_CIDR
   DEFAULT_VPC_ID      = var.DEFAULT_VPC_ID
+  DEFAULT_VPC_CIDR    = var.DEFAULT_VPC_CIDR
 }
 
 # We cannot parametrize anything that's added n the source.
